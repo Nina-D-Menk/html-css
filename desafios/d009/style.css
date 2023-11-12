@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(37, 36, 36);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: normal;
+}
+
+a:hover {
+    color: rgb(72, 41, 156);
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(156, 22, 22);
+    text-decoration: underline;
+}
+
+div {
+    text-align: center;
+}
+
+.thumb {
+    width: 300px;
+}
