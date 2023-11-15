@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundo fixo de tela</title>
     <style>
-        /* "SHIFT+ALT+A" */
+        /* "SHIFT+ALT+A" - Cométários*/
 
         /* background-size = 
+        Utilizar tamanhos fixos dde porcentagens
+        contain (a Imagem será 100% exibida)
         cover (a imagem vai se cortando para cabe na tela, sem se esticar)*/
         
         /* background-attachment = interaçao fundo de tela, podender ser scroll (a imagm vai descendo com o scroll da tela) ou fixed (a imagem está fixa apenas o conteduo é scrollado*/
+        
         body {
             height: 100vh;
             background-color: black;
@@ -20,8 +23,8 @@
             background-size: cover;
             background-attachment: fixed;
 
-            /* Shorthand - background: [background-color] [background-image] [background-repeat] [background-attachment] [background-position] / [background-size] [background-origin] [background-clip];
-            */
+            /* Shorthand - background: [background-color] [background-image] [background-repeat] [background-attachment] [background-position] / [background-size] [background-origin] [background-clip];*/
+
             background: black url(imagens/wallpaper002.jpg) no-repeat fixed center center / cover;
         }
 
